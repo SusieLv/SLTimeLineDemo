@@ -9,5 +9,16 @@
 #import "SLTimeLineModel.h"
 
 @implementation SLTimeLineModel
++ (instancetype)initModelWithDict:(NSDictionary *)dict
+{
+    SLTimeLineModel * timeLine = [[SLTimeLineModel alloc] init];
+    [timeLine setValuesForKeysWithDictionary:dict];
+    
+    return timeLine;
+}
 
+- (void)setValue:(id)value forUndefinedKey:(NSString *)key
+{
+    
+}
 @end

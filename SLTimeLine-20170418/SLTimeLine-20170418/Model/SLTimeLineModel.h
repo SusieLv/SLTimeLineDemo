@@ -17,4 +17,6 @@
 @property (nonatomic,copy) NSString * img;
 /** 是否展开 */
 @property (nonatomic,assign) BOOL isOpen;
+
++ (instancetype)initModelWithDict:(NSDictionary *)dict;
 @end

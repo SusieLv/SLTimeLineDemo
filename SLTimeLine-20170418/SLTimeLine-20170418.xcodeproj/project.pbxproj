@@ -16,6 +16,7 @@
 		3B802B021EA6EC6B00B95E68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B802B011EA6EC6B00B95E68 /* ViewController.m */; };
 		3B802B051EA6EEA800B95E68 /* SLTimeLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B802B041EA6EEA800B95E68 /* SLTimeLineModel.m */; };
 		3B802B071EA6FB2400B95E68 /* content.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B802B061EA6FB2400B95E68 /* content.json */; };
+		3B802B0B1EA7500300B95E68 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B802B0A1EA7500300B95E68 /* help.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3B802B041EA6EEA800B95E68 /* SLTimeLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTimeLineModel.m; sourceTree = "<group>"; };
 		3B802B061EA6FB2400B95E68 /* content.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = content.json; sourceTree = "<group>"; };
 		3B802B091EA7089200B95E68 /* SLDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDataProvider.h; sourceTree = "<group>"; };
+		3B802B0A1EA7500300B95E68 /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				3B4CB5521EA5EF0600DD271D /* AppDelegate.h */,
 				3B4CB5531EA5EF0600DD271D /* AppDelegate.m */,
 				3B802B061EA6FB2400B95E68 /* content.json */,
+				3B802B0A1EA7500300B95E68 /* help.json */,
 				3B4CB5581EA5EF0600DD271D /* Main.storyboard */,
 				3B4CB55B1EA5EF0600DD271D /* Assets.xcassets */,
 				3B4CB55D1EA5EF0600DD271D /* LaunchScreen.storyboard */,
@@ -187,6 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B802B0B1EA7500300B95E68 /* help.json in Resources */,
 				3B4CB55F1EA5EF0600DD271D /* LaunchScreen.storyboard in Resources */,
 				3B4CB55C1EA5EF0600DD271D /* Assets.xcassets in Resources */,
 				3B4CB55A1EA5EF0600DD271D /* Main.storyboard in Resources */,
