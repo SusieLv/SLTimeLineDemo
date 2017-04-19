@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3B4CB5511EA5EF0600DD271D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB5501EA5EF0600DD271D /* main.m */; };
 		3B4CB5541EA5EF0600DD271D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB5531EA5EF0600DD271D /* AppDelegate.m */; };
-		3B4CB5571EA5EF0600DD271D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB5561EA5EF0600DD271D /* ViewController.m */; };
 		3B4CB55A1EA5EF0600DD271D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4CB5581EA5EF0600DD271D /* Main.storyboard */; };
 		3B4CB55C1EA5EF0600DD271D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4CB55B1EA5EF0600DD271D /* Assets.xcassets */; };
 		3B4CB55F1EA5EF0600DD271D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4CB55D1EA5EF0600DD271D /* LaunchScreen.storyboard */; };
-		3B4CB5681EA5EF8700DD271D /* SLTimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4CB5671EA5EF8700DD271D /* SLTimeLineCell.m */; };
+		3B802AFF1EA6EC2700B95E68 /* SLTimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B802AFE1EA6EC2700B95E68 /* SLTimeLineCell.m */; };
+		3B802B021EA6EC6B00B95E68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B802B011EA6EC6B00B95E68 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,15 +21,15 @@
 		3B4CB5501EA5EF0600DD271D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B4CB5521EA5EF0600DD271D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B4CB5531EA5EF0600DD271D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B4CB5551EA5EF0600DD271D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B4CB5561EA5EF0600DD271D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3B4CB5591EA5EF0600DD271D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B4CB55B1EA5EF0600DD271D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B4CB55E1EA5EF0600DD271D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B4CB5601EA5EF0600DD271D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B4CB5661EA5EF8700DD271D /* SLTimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTimeLineCell.h; sourceTree = "<group>"; };
-		3B4CB5671EA5EF8700DD271D /* SLTimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTimeLineCell.m; sourceTree = "<group>"; };
 		3B4CB5691EA5F22D00DD271D /* timeLine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = timeLine.pch; sourceTree = "<group>"; };
+		3B802AFD1EA6EC2700B95E68 /* SLTimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLTimeLineCell.h; sourceTree = "<group>"; };
+		3B802AFE1EA6EC2700B95E68 /* SLTimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLTimeLineCell.m; sourceTree = "<group>"; };
+		3B802B001EA6EC6B00B95E68 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B802B011EA6EC6B00B95E68 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,12 +62,11 @@
 		3B4CB54E1EA5EF0600DD271D /* SLTimeLine-20170418 */ = {
 			isa = PBXGroup;
 			children = (
+				3B802AFC1EA6EBB500B95E68 /* Controller */,
+				3B802AFB1EA6EBA000B95E68 /* Model */,
+				3B802AFA1EA6EB8500B95E68 /* view */,
 				3B4CB5521EA5EF0600DD271D /* AppDelegate.h */,
 				3B4CB5531EA5EF0600DD271D /* AppDelegate.m */,
-				3B4CB5551EA5EF0600DD271D /* ViewController.h */,
-				3B4CB5561EA5EF0600DD271D /* ViewController.m */,
-				3B4CB5661EA5EF8700DD271D /* SLTimeLineCell.h */,
-				3B4CB5671EA5EF8700DD271D /* SLTimeLineCell.m */,
 				3B4CB5581EA5EF0600DD271D /* Main.storyboard */,
 				3B4CB55B1EA5EF0600DD271D /* Assets.xcassets */,
 				3B4CB55D1EA5EF0600DD271D /* LaunchScreen.storyboard */,
@@ -84,6 +83,31 @@
 				3B4CB5691EA5F22D00DD271D /* timeLine.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B802AFA1EA6EB8500B95E68 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3B802AFD1EA6EC2700B95E68 /* SLTimeLineCell.h */,
+				3B802AFE1EA6EC2700B95E68 /* SLTimeLineCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3B802AFB1EA6EBA000B95E68 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B802AFC1EA6EBB500B95E68 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3B802B001EA6EC6B00B95E68 /* ViewController.h */,
+				3B802B011EA6EC6B00B95E68 /* ViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B4CB5571EA5EF0600DD271D /* ViewController.m in Sources */,
-				3B4CB5681EA5EF8700DD271D /* SLTimeLineCell.m in Sources */,
 				3B4CB5541EA5EF0600DD271D /* AppDelegate.m in Sources */,
 				3B4CB5511EA5EF0600DD271D /* main.m in Sources */,
+				3B802B021EA6EC6B00B95E68 /* ViewController.m in Sources */,
+				3B802AFF1EA6EC2700B95E68 /* SLTimeLineCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +348,7 @@
 				3B4CB5651EA5EF0600DD271D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
