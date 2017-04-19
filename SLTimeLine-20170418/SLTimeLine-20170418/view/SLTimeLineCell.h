@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SLDataProvider.h"
 
-@interface SLTimeLineCell : UITableViewCell
+@interface SLTimeLineCell : UITableViewCell<SLDataProvider>
 
 @end
